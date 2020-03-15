@@ -18,10 +18,10 @@
 ### 群晖NAS 一键脚本安装
 [群晖NAS安装配置免费frp内网穿透教程](https://www.ioiox.com/archives/6.html)
 
-### Linux 服务器 一键脚本安装
+### 群晖NAS ARM 一键脚本安装
 安装
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frpc/master/frpc_linux_install.sh && chmod +x frpc_linux_install.sh && ./frpc_linux_install.sh
+wget https://raw.githubusercontent.com/MeowCold/frpc/master/frpc_synology_install.sh && chmod +x frpc_synology_install.sh && ./frpc_synology_install.sh
 ```
 
 使用
@@ -34,7 +34,7 @@ sudo systemctl restart frpc
 
 卸载
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frpc/master/frpc_linux_uninstall.sh && chmod +x frpc_linux_uninstall.sh && ./frpc_linux_uninstall.sh
+wget https://raw.githubusercontent.com/MeowCold/frpc/master/frpc_synology_uninstall.sh && chmod +x frpc_synology_uninstall.sh && ./frpc_synology_uninstall.sh
 ```
 
 ### Linux 服务器 docker 安装
