@@ -1,5 +1,5 @@
 #!/bin/sh
-FRP_VERSION="0.31.2"
+FRP_VERSION="0.33.0"
 REPO="MeowCold/frpc"
 WORK_PATH=$(dirname $(readlink -f $0))
 
